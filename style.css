@@ -8,6 +8,7 @@ html {
 .menu-search-menu-account {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .menu {
@@ -20,7 +21,7 @@ html {
 
 .logo {
   height: 30px;
-  padding: 4px 28px 0 30px;
+  padding: 13px 28px 0 30px;
 }
 
 .search-bar-container {
@@ -41,6 +42,9 @@ html {
   outline: none;
 }
 
+.clear-voice {
+}
+
 .logo-search {
   display: flex;
 }
@@ -59,6 +63,30 @@ html {
   width: 32px;
 }
 
+.tab-menu {
+  border-bottom: 1px solid #ebebeb;
+}
+
 .tab-menu-items {
   display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 155px;
+}
+
+.tab-menu-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: #5f6368;
+}
+
+.tab-menu-item ion-icon {
+  padding-right: 5px;
+}
+
+.settings-tools {
+  display: flex;
+  margin-left: 55px;
+  font-size: 90%;
 }
