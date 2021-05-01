@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <head>
   <title>Google</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
   <div class="top-bar">
-    <!-- Logo and search bar -->
-    <div class="logo-search">
-      <img
-        class="logo"
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
-      />
-
-      <input class="search-bar" type="text" maxlength="2048" />
-    </div>
-
-    <!-- Expanding menu and account link -->
-    <div class="account-menu">
-      <div class="menu"><ion-icon name="apps"></ion-icon></div>
-      <div class="account">
+    <div class="menu-search-menu-account">
+      <!-- Logo and search bar -->
+      <div class="logo-search">
         <img
-          src="https://lh3.googleusercontent.com/ogw/ADGmqu8HdcZt2ekgWFmcFKcGlyDwhNwF-EOi7I5jXXie=s32-c-mo"
-          alt="initial"
+          class="logo"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
         />
+        <div class="search-bar-container">
+          <input class="search-bar" type="text" maxlength="2048" />
+        </div>
+      </div>
+
+      <!-- Expanding menu and account link -->
+      <div class="account-menu">
+        <div class="menu"><ion-icon name="apps"></ion-icon></div>
+        <div class="account">
+          <img
+            src="https://lh3.googleusercontent.com/ogw/ADGmqu8HdcZt2ekgWFmcFKcGlyDwhNwF-EOi7I5jXXie=s32-c-mo"
+            alt="initial"
+          />
+        </div>
       </div>
     </div>
 
     <!-- Link menu -->
     <div class="tab-menu">
-        <div class="tab-menu-items"
-      <div class="tab-menu-item"><ion-icon name="search"></ion-icon>All</div>
-      <div class="tab-menu-item">
-        <ion-icon name="newspaper-outline"></ion-icon>
-        News
+      <div class="tab-menu-items">
+        <div class="tab-menu-item"><ion-icon name="search"></ion-icon>All</div>
+        <div class="tab-menu-item">
+          <ion-icon name="newspaper-outline"></ion-icon>
+          News
+        </div>
+        <div class="tab-menu-item">
+          <ion-icon name="play-circle-outline"></ion-icon>
+          Videos
+        </div>
+        <div class="tab-menu-item">
+          <ion-icon name="location-outline"></ion-icon>
+          Maps
+        </div>
+        <div class="tab-menu-item">
+          <ion-icon name="pricetag-outline"></ion-icon>
+          Shopping
+        </div>
       </div>
-      <div class="tab-menu-item">
-        <ion-icon name="play-circle-outline"></ion-icon>
-        Videos
-      </div>
-      <div class="tab-menu-item">
-        <ion-icon name="location-outline"></ion-icon>
-        Maps
-      </div>
-      <div class="tab-menu-item">
-        <ion-icon name="pricetag-outline"></ion-icon>
-        Shopping
-      </div>
-    </div>
     </div>
   </div>
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
