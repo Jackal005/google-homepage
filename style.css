@@ -175,6 +175,7 @@ html {
   margin-top: 0;
 }
 
-.nav-g {
-  background-image: url(https://www.google.com/images/nav_logo323.webp);
+.nav-img-container {
+  display: flex;
+  justify-content: center;
 }
